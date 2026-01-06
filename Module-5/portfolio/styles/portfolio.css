@@ -180,3 +180,66 @@ nav a:hover {
     font-size: 20px;
     text-align: center;
 }
+
+/* About of dev skill css */
+
+.skill-cont {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 578px;
+}
+
+.text-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-cont h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.text-cont  p {
+    padding: 0 140px;
+    color: #757575;
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.all-skills {
+    max-width: 267px;
+    padding: 40px;
+    border-radius: 5px;
+    color: #181818;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.all-skills img {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 20px;
+}
+
+.all-skills h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #181818;
+    margin-bottom: 15px;
+}
+
+.all-skills p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
